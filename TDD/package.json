@@ -1,0 +1,26 @@
+{
+	"name": "learning-tdd-with-jest",
+	"version": "1.0.0",
+	"description": "Learning TDD with Jest",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watchAll",
+		"test:coverage": "jest --coverage"
+	},
+	"keywords": [
+		"testing",
+		"tdd",
+		"jest",
+		"learning"
+	],
+	"author": "Edwin Arley Rincón Henao (shortymolinari@gmail.com)",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jest": "^25.1.2",
+		"jest": "^25.1.0",
+		"ts-jest": "^25.2.0",
+		"typescript": "^3.7.5",
+		"x-match-expression": "0.2.1"
+	}
+}
